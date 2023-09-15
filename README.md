@@ -1,3 +1,5 @@
+This is a fork, Original project: https://github.com/fogleman/Craft
+
 ## Craft
 
 Minecraft clone for Windows, Mac OS X and Linux. Just a few thousand lines of C using modern OpenGL (shaders). Online multiplayer support is included using a Python-based server.
@@ -41,10 +43,16 @@ the installation:
 
 #### Windows
 
-Download and install [CMake](http://www.cmake.org/cmake/resources/software.html)
-and [MinGW](http://www.mingw.org/). Add `C:\MinGW\bin` to your `PATH`.
+Download and install these 3 tools below:
 
-Download and install [cURL](http://curl.haxx.se/download.html) so that
+[CMake](http://www.cmake.org/cmake/resources/software.html)
+
+
+[MinGW](https://sourceforge.net/projects/mingw/files/)
+[MinGW Tips](https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html) 
+Add `C:\MinGW\bin` to your `PATH`.
+
+[cURL](http://curl.haxx.se/download.html) Download and install so that
 CURL/lib and CURL/include are in your Program Files directory.
 
 Use the following commands in place of the ones described in the next section.
@@ -217,3 +225,11 @@ http://0fps.wordpress.com/2013/07/03/ambient-occlusion-for-minecraft-like-worlds
 * lodepng is used for loading PNG textures.
 * sqlite3 is used for saving the blocks added / removed by the user.
 * tinycthread is used for cross-platform threading.
+
+
+#### Footnotes
+
+Prior readme versions suggested MinGW from the URL Below but the URL seems like malware now
+[MinGW](http://www.mingw.org/). 
+
+****
